@@ -9,6 +9,7 @@ package hw7_2;
 public class CirclePointTest {
 
 	public static void main(String[] args) {
+		System.out.println("hw7_2 : 김유진"); // 과제 정보 출력
 		Circle c1 = new Circle(1.5); // c1 객체 생성 
 		Circle c2 = new Circle(1.5, new Point(10, 20)); // c2 객체 생성
 		Circle c3 = new Circle(3.5, new Point(10, 20)); // c3 객체 생성
