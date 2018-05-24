@@ -20,6 +20,9 @@ public class SpeakableTest {
 		
 		for(int i = 0; i < s.length; i++) { // 반복문을 배열의 길이 만큼 실행
 			s[i].speak(); // speak 호출
+			if(s[i] instanceof Person) { // 배열의 원소가 사람이면 getName()을 통해 출력
+				System.out.println(((Person)s[i]).getName() + "입니다."); // 결과 출력
+			}
 			System.out.println(" "); // 출력되는 결과의 가독성을 높이기 위한 개행
 		}
 	}

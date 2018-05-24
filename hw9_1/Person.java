@@ -12,7 +12,6 @@ public class Person implements Speakable{
 	@Override // speak 재정의
 	public void speak() {
 		System.out.println("안녕하세요"); // 결과 출력
-		System.out.println( name + "" + "입니다."); // 이름과 함께 결과 출력
 	}
 	
 	public Person(String name) { // 이름을 매개변수로 받아 초기화하는 생성자
